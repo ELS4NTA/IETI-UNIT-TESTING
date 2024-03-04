@@ -1,14 +1,14 @@
-package org.adaschool.Weather.service;
+package org.adaschool.weather.service;
 
-import org.adaschool.Weather.data.WeatherApiResponse;
-import org.adaschool.Weather.data.WeatherReport;
+import org.adaschool.weather.data.WeatherApiResponse;
+import org.adaschool.weather.data.WeatherReport;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
 public class WeatherReportService {
 
-    private static final String API_KEY = "your-api-key";
+    private static final String API_KEY = "5ad603ab13747dbec1ee42f5e3da6ca9";
     private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather";
 
     public WeatherReport getWeatherReport(double latitude, double longitude) {
@@ -23,4 +23,5 @@ public class WeatherReportService {
 
         return report;
     }
+
 }

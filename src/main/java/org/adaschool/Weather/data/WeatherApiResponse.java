@@ -1,4 +1,4 @@
-package org.adaschool.Weather.data;
+package org.adaschool.weather.data;
 
 public class WeatherApiResponse {
 
@@ -32,4 +32,5 @@ public class WeatherApiResponse {
             this.humidity = humidity;
         }
     }
+
 }

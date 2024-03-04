@@ -1,10 +1,9 @@
-package org.adaschool.Weather.data;
+package org.adaschool.weather.data;
 
 public class WeatherReport {
 
     private double temperature;
     private double humidity;
-
 
     public double getTemperature() {
         return temperature;
@@ -21,4 +20,5 @@ public class WeatherReport {
     public void setHumidity(double humidity) {
         this.humidity = humidity;
     }
+
 }
